@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 550px;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "comun privat";
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.03);    
+}
+
+.comun {
+    background-color: #0072C6;
+}    
+
+.privat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2),
+                0 4px 4px 0px rgba(0, 0, 0, .14),
+                0 1px 10px 0px rgba(0, 0, 0, .12);
+
+}
+
+.form-login {
+    flex-basis: 450px;
+}
+
+.login-card .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.login-card .card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
